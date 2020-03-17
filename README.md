@@ -13,6 +13,7 @@ objectives:
 lessons learned:
 
 1. initContainers, can use to run a load before the other pods start
+
 2. Can mount a volume to the initContainer, output to the volume, then mount that into the pod
   * getting elb info wth aws-cli in this case into 'workdir' volume
   * can use grep/awk/sed/cut to get only the DNS name (elbcmd.txt)
